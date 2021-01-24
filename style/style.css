@@ -7,3 +7,19 @@ html {
     width: 5rem;
 }
 
+.nav-item{
+    font-size: 1.5rem;
+}
+#fade a {
+
+    transition: all 250ms ease-out;
+    -webkit-transition: all 250ms ease-out;
+    -moz-transition: all 250ms ease-out;
+    -ms-transition: all 250ms ease-out;
+    -o-transition: all 250ms ease-out;
+}
+#fade a:hover {
+    color: rgba(205, 129, 212, 0.808);
+
+    text-shadow: .08rem .05rem .05rem rgba(92, 69, 94);
+}
