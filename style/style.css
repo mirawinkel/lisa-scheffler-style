@@ -35,22 +35,19 @@ body {
 	font-weight: 400;
 }
 
-#brandtext:after {
-    background: none;
-    content: attr(data-heading);
-    left: 0;
-    top: 0;
-
-    z-index: -1;
-    position: absolute;
-    text-shadow: 
-		-1px 0 1px #c6bb9f, 
-		0 1px 1px #c6bb9f, 
-		5px 5px 10px rgba(0, 0, 0, 0.4),
-		-5px -5px 10px rgba(0, 0, 0, 0.4);
-}
 .navbar b {
     font-weight: 300;
+    font-size: 2.8rem;
+    text-shadow: .15rem .1rem .12rem black;
+    transition: all .22s ease-in-out;
+    -webkit-transition: all .22s ease-in-out;
+    -moz-transition: all .22s ease-in-out;
+    -ms-transition: all .22s ease-in-out;
+    -o-transition: all .22s ease-in-out;
+}
+.navbar b:hover {
+    color:rgb(224, 142, 150);
+    text-shadow: .15rem .15rem .3rem black;
 }
 .nav-item {
     font-size: 1.5rem;
@@ -58,6 +55,7 @@ body {
 #fade a {
 
     color: rgb(255, 43, 13);
+    text-shadow: .05rem .05rem .07rem rgb(0, 0, 0);
     position: relative;
     font-weight: 400;
     transition: all 0.22s ease-in-out;
@@ -100,16 +98,36 @@ body {
     width: 100%;
     height: 18vw;
     object-fit: cover;
+    border-radius: 1.5rem 1.5rem 0 0;
+    -webkit-border-radius: 1.5rem 1.5rem 0 0;
+    -moz-border-radius: 1.5rem 1.5rem 0 0;
+    -ms-border-radius: 1.5rem 1.5rem 0 0;
+    -o-border-radius: 1.5rem 1.5rem 0 0;
+}
+
+.card {
+    height: 40rem;
+    border-radius: 1.5rem;
+    -webkit-border-radius: 1.5rem;
+    -moz-border-radius: 1.5rem;
+    -ms-border-radius: 1.5rem;
+    -o-border-radius: 1.5rem;
 }
 
 /*================================  Images =================================    */
 .lash-main {
     align-items: center;
     margin-top: 5rem;
-    height: 40rem;
+    height: 43rem;
     width: 33rem;
 }
-
+.carousel img {
+    border-radius: 2rem;
+    -webkit-border-radius: 2rem;
+    -moz-border-radius: 2rem;
+    -ms-border-radius: 2rem;
+    -o-border-radius: 2rem;
+}
 
 
 /*================================  Button =================================    */
