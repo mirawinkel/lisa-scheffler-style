@@ -1,38 +1,153 @@
+/* raleway-regular - latin */
 @font-face {
-    font-family: 'Satisfy';
-    src: url('./fonts/Satisfy-Regular.ttf') format('truetype');
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    src: local(''),
+         url('./fonts/raleway-v19-latin-regular.woff2') format('woff2'), /* Super Modern Browsers */
+         url('./fonts/raleway-v19-latin-regular.woff') format('woff'), /* Modern Browsers */
+         url('./fonts/raleway-v19-latin-regular.ttf') format('truetype'); /* Safari, Android, iOS */
+
   }
+  /* raleway-500 - latin */
   @font-face {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 500;
+    src: local(''),
+         url('./fonts/raleway-v19-latin-500.woff2') format('woff2'), /* Super Modern Browsers */
+         url('./fonts/raleway-v19-latin-500.woff') format('woff'), /* Modern Browsers */
+         url('./fonts/raleway-v19-latin-500.ttf') format('truetype');/* Safari, Android, iOS */
+  }
+  /* raleway-600 - latin */
+  @font-face {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 600;
+    src: local(''),
+         url('./fonts/raleway-v19-latin-600.woff2') format('woff2'), /* Super Modern Browsers */
+         url('./fonts/raleway-v19-latin-600.woff') format('woff'), /* Modern Browsers */
+         url('./fonts/raleway-v19-latin-600.ttf') format('truetype'); /* Safari, Android, iOS */
+  }
+  /* raleway-700 - latin */
+  @font-face {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    src: local(''),
+         url('./fonts/raleway-v19-latin-700.woff2') format('woff2'), /* Super Modern Browsers */
+         url('./fonts/raleway-v19-latin-700.woff') format('woff'), /* Modern Browsers */
+         url('./fonts/raleway-v19-latin-700.ttf') format('truetype'); /* Safari, Android, iOS */
+  }
+  /* raleway-800 - latin */
+  @font-face {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 800;
+    src: local(''),
+         url('./fonts/raleway-v19-latin-800.woff2') format('woff2'), /* Super Modern Browsers */
+         url('./fonts/raleway-v19-latin-800.woff') format('woff'), /* Modern Browsers */
+         url('./fonts/raleway-v19-latin-800.ttf') format('truetype'); /* Safari, Android, iOS */
+  }
+  /* raleway-900 - latin */
+  @font-face {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 900;
+    src: local(''),
+         url('./fonts/raleway-v19-latin-900.woff2') format('woff2'), /* Super Modern Browsers */
+         url('./fonts/raleway-v19-latin-900.woff') format('woff'), /* Modern Browsers */
+         url('./fonts/raleway-v19-latin-900.ttf') format('truetype'); /* Safari, Android, iOS */
+  }
+  /* raleway-italic - latin */
+  @font-face {
+    font-family: 'Raleway';
+    font-style: italic;
+    font-weight: 400;
+    src: local(''),
+         url('./fonts/raleway-v19-latin-italic.woff2') format('woff2'), /* Super Modern Browsers */
+         url('./fonts/raleway-v19-latin-italic.woff') format('woff'), /* Modern Browsers */
+         url('./fonts/raleway-v19-latin-italic.ttf') format('truetype'); /* Safari, Android, iOS */
+  }
+  /* raleway-600italic - latin */
+  @font-face {
+    font-family: 'Raleway';
+    font-style: italic;
+    font-weight: 600;
+    src: local(''),
+         url('./fonts/raleway-v19-latin-600italic.woff2') format('woff2'), /* Super Modern Browsers */
+         url('./fonts/raleway-v19-latin-600italic.woff') format('woff'), /* Modern Browsers */
+         url('./fonts/raleway-v19-latin-600italic.ttf') format('truetype'); /* Safari, Android, iOS */
+  }
+  /* raleway-500italic - latin */
+  @font-face {
+    font-family: 'Raleway';
+    font-style: italic;
+    font-weight: 500;
+    src: local(''),
+         url('./fonts/raleway-v19-latin-500italic.woff2') format('woff2'), /* Super Modern Browsers */
+         url('./fonts/raleway-v19-latin-500italic.woff') format('woff'), /* Modern Browsers */
+         url('./fonts/raleway-v19-latin-500italic.ttf') format('truetype'); /* Safari, Android, iOS */
+  }
+  /* raleway-700italic - latin */
+  @font-face {
+    font-family: 'Raleway';
+    font-style: italic;
+    font-weight: 700;
+    src: local(''),
+         url('./fonts/raleway-v19-latin-700italic.woff2') format('woff2'), /* Super Modern Browsers */
+         url('./fonts/raleway-v19-latin-700italic.woff') format('woff'), /* Modern Browsers */
+         url('./fonts/raleway-v19-latin-700italic.ttf') format('truetype'); /* Safari, Android, iOS */
+  }
+  /* raleway-900italic - latin */
+  @font-face {
+    font-family: 'Raleway';
+    font-style: italic;
+    font-weight: 900;
+    src: local(''),
+         url('./fonts/raleway-v19-latin-900italic.woff2') format('woff2'), /* Super Modern Browsers */
+         url('./fonts/raleway-v19-latin-900italic.woff') format('woff'), /* Modern Browsers */
+         url('./fonts/raleway-v19-latin-900italic.ttf') format('truetype'); /* Safari, Android, iOS */
+  }
+@font-face {
     font-family: 'Abril';
     src: url('./fonts/AbrilFatface-Regular.ttf') format('truetype');
-  }
-
+}
+* {
+    box-sizing: border-box;
+}
 .form-control:focus {
     box-shadow: none;
 }
 html {
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-family: 'Raleway', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size: 10px;
 
 }
 
-/*================================  Nav Bar =================================    */
+
 
 body {
+    font-family: 'Raleway', 'Lucida Sans Unicode';
     background-color: rgb(245, 228, 231);
 }
+
+
+/*==================  Nav Bar  ==================    */
 
 .navLogo {
     height: 3.5rem;
     width: 2.2rem;
+    margin-bottom: .8rem;
+    margin-right: 1.2rem;
 }
 #brandtext{
-
+    letter-spacing: .18rem;
     color: rgb(255, 43, 13);
     font-family: 'Abril';
     font-size: 2.2rem;
     position: relative;
-	font-weight: 400;
+    font-weight: 400;
 }
 
 .navbar b {
@@ -45,7 +160,7 @@ body {
     -ms-transition: all .22s ease-in-out;
     -o-transition: all .22s ease-in-out;
 }
-.navbar b:hover {
+.navbar b:all {
     color:rgb(224, 142, 150);
     text-shadow: .15rem .15rem .3rem black;
 }
@@ -74,7 +189,7 @@ body {
     font-size: 1.3rem;
 }
 
-.dropdown-item:hover {
+.dropdown-item:all {
     background: none; 
     color: #fff;
     box-shadow: inset 20px 20px none;
@@ -84,7 +199,7 @@ body {
 }
 
 
-#fade a:hover {
+#fade a:all {
     color:rgb(211, 102, 113);
     text-shadow: .15rem .15rem .3rem black;
 }
@@ -147,6 +262,7 @@ body {
     -o-border-radius: 2rem;
 }
 .carousel img {
+
     border-radius: 2rem;
     -webkit-border-radius: 2rem;
     -moz-border-radius: 2rem;
@@ -155,38 +271,44 @@ body {
 }
 
 
+
 /*================================  Button =================================    */
 
 .bigButton {
     display: inline-block;
     padding: .7em 2em;
     margin: 0 0.1em 0.1em 0;
-    border: 0.16em solid rgba(255,255,255,0);
     border-radius:2em;
     box-sizing: border-box;
-    background-image: linear-gradient(rgb(0, 0, 0), 15%, rgba(211, 102, 113), 85%, rgb(0, 0, 0)) ;
-    text-decoration:none;
+    background-image: radial-gradient(ellipse farthest-corner at right bottom, #FEDB37 0%, #FDB931 8%, #9f7928 30%, #8A6E2F 40%, transparent 80%),
+    radial-gradient(ellipse farthest-corner at left top, #FFFFFF 0%, #FFFFAC 8%, #D1B464 25%, #5d4a1f 62.5%, #5d4a1f 100%);
     font-size: 3rem;
     font-weight:300;
     color:#ffffff;
     text-shadow: .2rem .1rem rgba(0,0,0,0.35);
     text-align:center;
-    transition: all 0.3s ease-in-out;
-    -webkit-transition: all 0.3s ease-in-out;
-    -moz-transition: all 0.3s ease-in-out;
-    -ms-transition: all 0.3s ease-in-out;
-    -o-transition: all 0.3s ease-in-out;
+    transition: all 0.25s ease-in-out;
+    -webkit-transition: all 0.25s ease-in-out;
+    -moz-transition: all 0.25s ease-in-out;
+    -ms-transition: all 0.25s ease-in-out;
+    -o-transition: all 0.25s ease-in-out;
 }
 .bigButton:hover{
-    background-image: linear-gradient(rgb(134, 101, 123), rgba(230, 147, 238, 0.808), rgba(132, 101, 123)) ;
-    background-color: rgb(138, 86, 131);
-    border-color: rgb(100, 58, 119);
+    border: .18rem solid;
+    text-shadow: .1rem .1rem .1rem rgba(0,0,0,.5);
+    color: #5d4a1f;
+    background-image: linear-gradient(#5d4a1f, #FFFFAC, #5d4a1f) ;
+    background-color: #9f7928 ;
+    border-color: #5d4a1f;
 
 }
 .bigButton:active{
     outline: none;
-    background-image: none;
-    background-color: rgb(100, 58, 119);
+    text-shadow: .1rem .1rem .1rem rgba(0,0,0,.75);
+    background-image: linear-gradient(#977b38, #fafacc, #977b38) ;
+    border-color: #9f7928 ;
+    color:  #FFFFAC;
+
 }
 .bigButton:focus {
     outline: none;
@@ -208,25 +330,32 @@ body {
     font-weight: 600;
     color: #ffffff;
     text-align: center;
-    transition: all 0.3s ease-in-out;
-    -webkit-transition: all 0.3s ease-in-out;
-    -moz-transition: all 0.3s ease-in-out;
-    -ms-transition: all 0.3s ease-in-out;
-    -o-transition: all 0.3s ease-in-out;
+    transition: all 0.25s ease-in-out;
+    -webkit-transition: all 0.25s ease-in-out;
+    -moz-transition: all 0.25s ease-in-out;
+    -ms-transition: all 0.25s ease-in-out;
+    -o-transition: all 0.25s ease-in-out;
     -webkit-border-radius: 1em;
     -moz-border-radius: 1em;
     -ms-border-radius: 1em;
     -o-border-radius: 1em;
 }
 .lilButton:hover{
-    color: #f5f59a;
-    text-shadow: 0 0 .15rem #bbac56;
+    border: .18rem solid;
+    text-shadow: .1rem .1rem .1rem rgba(0,0,0,.5);
+    color: #3b3014;
+    background-image: linear-gradient(#5d4a1f, #FFFFAC, #5d4a1f) ;
+    background-color: #9f7928 ;
+    border-color: #5d4a1f;
+
 
 }
 .lilButton:active{
     outline: none;
-    background-image: none;
-    background-color: rgb(100, 58, 119);
+    text-shadow: .1rem .1rem .1rem rgba(0,0,0,.75);
+    background-image: linear-gradient(#977b38, #fafacc, #977b38) ;
+    border-color: #9f7928 ;
+    color:  #FFFFAC;
 }
 .lilButton:focus {
     outline: none;
@@ -245,11 +374,11 @@ i {
     position: relative;
     margin: 0;
     font-weight: 400;
-    transition: all 0.25s ease-in-out;
-    -webkit-transition: all 0.25s ease-in-out;
-    -moz-transition: all 0.25s ease-in-out;
-    -ms-transition: all 0.25s ease-in-out;
-    -o-transition: all 0.25s ease-in-out;
+    transition: all 0.3s ease-in-out;
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -ms-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
 }
 
 i:hover {
