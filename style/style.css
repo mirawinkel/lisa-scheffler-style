@@ -276,10 +276,16 @@ p {
 }
 a:hover {
     color:rgb(94, 159, 202);
-    text-shadow: .05rem .03rem .08rem rgb(0, 0, 0)
 }
 .info b {
     font-weight: 600;
+}
+#lashText {
+    margin-top: -1rem;
+}
+.card-text {
+    font-size: 1.3rem;
+    margin-bottom: -1rem;
 }
 /*================================  Cards =================================    */
 
@@ -341,7 +347,8 @@ contactImage {
     width: 5rem;
 }
 
-.lisaImage {
+#lisaImage {
+    background-size: 100%;
     height: auto;
     width: auto;
 }
@@ -438,7 +445,9 @@ contactImage {
 .lilButton:focus {
     outline: none;
 }
-
+#lashButton{
+    margin-top: -2rem;
+}
 /* ================= Social Media =================*/
 
 .social {
