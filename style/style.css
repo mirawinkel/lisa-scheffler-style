@@ -152,28 +152,21 @@ body {
 }
 
 #brandtext{
+    text-shadow: .15rem .1rem .12rem black;
     letter-spacing: .18rem;
     color: rgb(255, 43, 13);
     font-family: 'Abril';
-    font-size: 2.2rem;
+    font-size: 3.3rem;
     position: relative;
     font-weight: 400;
+    transition: all 0.2;
+    -webkit-transition: all 0.2;
+    -moz-transition: all 0.2;
+    -ms-transition: all 0.2;
+    -o-transition: all 0.2;
 }
-
-.navbar b {
-    font-weight: 300;
-    font-size: 2.8rem;
-    text-shadow: .15rem .1rem .12rem black;
-    transition: all .22s ease-in-out;
-    -webkit-transition: all .22s ease-in-out;
-    -moz-transition: all .22s ease-in-out;
-    -ms-transition: all .22s ease-in-out;
-    -o-transition: all .22s ease-in-out;
-}
-
-.navbar b:all {
-    color:rgb(224, 142, 150);
-    text-shadow: .15rem .15rem .3rem black;
+#brandtext a:hover {
+    text-shadow: .3rem .3rem .4rem #FFFFAC;
 }
 
 .nav-item {
@@ -283,6 +276,9 @@ a:hover {
 #lashText {
     margin-top: -1rem;
 }
+.card-title {
+    margin-top: -.6rem;
+}
 .card-text {
     font-size: 1.3rem;
     margin-bottom: -1rem;
@@ -305,6 +301,7 @@ a:hover {
 .card {
     height: 40rem;
     width: 23rem;
+    min-width: 23rem;
     border-radius: 1.5rem;
     -webkit-border-radius: 1.5rem;
     -moz-border-radius: 1.5rem;
@@ -348,11 +345,14 @@ contactImage {
 }
 
 #lisaImage {
-    background-size: 100%;
+    margin-bottom: -.2rem;    
     height: auto;
     width: auto;
-}
 
+}
+#mainPage {
+    box-shadow: .5rem .4rem .6rem #000000;
+}
 
 /*================================  Button =================================    */
 
@@ -445,9 +445,14 @@ contactImage {
 .lilButton:focus {
     outline: none;
 }
-#lashButton{
-    margin-top: -2rem;
+#lashButton2 {
+    position: relative;
+    top: 1rem;
 }
+#lashButton{
+    margin-top: -3rem;
+}
+
 /* ================= Social Media =================*/
 
 .social {
