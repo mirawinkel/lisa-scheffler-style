@@ -148,7 +148,7 @@ body {
     font-family: 'Abril';
     font-size: 3.3rem;
     position: relative;
-    font-weight: 400;
+    font-weight: 300;
     transition: all 0.2;
     -webkit-transition: all 0.2;
     -moz-transition: all 0.2;
@@ -218,6 +218,7 @@ body {
 .micro h2 {
     font-size: 2.4rem;
     font-weight: 400;
+
 }
 .micro h3 {
     font-weight: 300;
@@ -258,21 +259,40 @@ h3 {
 p {
     font-size: 1.5rem;
 }
-
-.text {
+a {
+    color: rgb(211, 102, 113);
+    text-shadow: .05rem .05rem .05rem rgb;
     text-decoration: none;
-    color: rgb(156, 76, 209);
-    text-shadow: .05rem .05rem .05rem rgb(43, 42, 42);
-    position: relative;
-    font-weight: 600;
-    transition: all 0.15s ease-in-out;
-    -webkit-transition: all 0.15s ease-in-out;
-    -moz-transition: all 0.15s ease-in-out;
-    -ms-transition: all 0.15s ease-in-out;
-    -o-transition: all 0.15s ease-in-out;
+    transition: all 0.1s ease-in-out;
+    -webkit-transition: all 0.1s ease-in-out;
+    -moz-transition: all 0.1s ease-in-out;
+    -ms-transition: all 0.1s ease-in-out;
+    -o-transition: all 0.1s ease-in-out;
 }
 a:hover {
-    color:rgb(94, 159, 202);
+    color:rgba(248, 7, 7, 0.808);
+    text-shadow: .05rem .05rem .05rem rgba(0, 0, 0, 0.5);
+}
+.text {
+    text-decoration: none;
+    color: rgb(211, 102, 113);
+    text-shadow: .05rem .05rem .05rem rgb(43, 42, 42), .5;
+    position: relative;
+    font-weight: 600;
+    transition: all 0.1s ease-in-out;
+    -webkit-transition: all 0.1s ease-in-out;
+    -moz-transition: all 0.1s ease-in-out;
+    -ms-transition: all 0.1s ease-in-out;
+    -o-transition: all 0.1s ease-in-out;
+}
+a:hover {
+    color:rgba(241, 67, 67, 0.664);
+    font-shadow: .1rem .1rem .1rem #000;
+}
+.card h4{
+    font-family: 'Abril';
+    font-weight:300;
+    letter-spacing: .12rem;
 }
 .info b {
     font-weight: 600;
@@ -287,7 +307,9 @@ a:hover {
     font-size: 1.3rem;
     margin-bottom: -1rem;
 }
-/*================================  Cards =================================    */
+/*===========================  Containers ===========================    */
+
+/*==========================  Cards ===========================    */
 
 .card-img-top {
     min-width: 22.805rem;
@@ -411,6 +433,7 @@ contactImage {
     -o-border-radius:1.5em;
 }
 .bigButton:hover{
+    padding: .69em 1.42em;
     font-weight:700;
     text-shadow: .1rem .1rem .18rem rgb(0, 0, 0);
     box-shadow: .1rem .1rem .3rem rgb(148, 118, 74);
@@ -480,7 +503,7 @@ contactImage {
 }
 #lashButton2 {
     position: relative;
-    top: 1rem;
+ 
 }
 #lashButton{
     margin-top: -3rem;
