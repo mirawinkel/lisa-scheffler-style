@@ -211,6 +211,24 @@ body {
 
 /*================================  Text =================================    */
 
+.brandTitle {
+    text-align: center;
+    font-family: 'Abril', sans-serif;
+    font-size: 6rem;
+    text-shadow: .22rem .18rem .3rem black;
+    letter-spacing: .18rem;
+    color: rgb(255, 43, 13);
+    position: relative;
+    font-weight: 500;
+    transition: all 0.2;
+    -webkit-transition: all 0.2;
+    -moz-transition: all 0.2;
+    -ms-transition: all 0.2;
+    -o-transition: all 0.2;
+}
+
+
+
 .micro h1 {
     font-size: 2.7rem;
     font-weight: 400;
