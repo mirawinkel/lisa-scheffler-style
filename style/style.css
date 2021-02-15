@@ -148,6 +148,7 @@ body {
     font-family: 'Abril';
     font-size: 3.3rem;
     position: relative;
+    left: -1rem;
     font-weight: 300;
     transition: all 0.2;
     -webkit-transition: all 0.2;
