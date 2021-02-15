@@ -232,11 +232,9 @@ body {
     position: relative;
     font-weight: 500;
 }
-
-
-.micro h1 {
-    font-size: 2.7rem;
-    font-weight: 500;
+#microTitle {
+    position: relative;
+    top: -2.8rem;
 }
 .micro h2 {
     font-size: 2.4rem;
@@ -417,8 +415,19 @@ a:hover {
     -ms-border-radius: 2rem;
     -o-border-radius: 2rem;
 }
-.carousel {
+#bridal .carousel {
     height: 100%;
+    max-width: 40rem;
+    box-shadow: .3rem .2rem .6rem #000000;
+    border-radius: 1rem;
+    -webkit-border-radius: 1rem;
+    -moz-border-radius: 1rem;
+    -ms-border-radius: 1rem;
+    -o-border-radius: 1rem;
+}
+#micro .carousel {
+    margin: 1rem 2rem;
+    height: 51rem;
     max-width: 50rem;
     box-shadow: .3rem .2rem .6rem #000000;
     border-radius: 1rem;
@@ -427,17 +436,10 @@ a:hover {
     -ms-border-radius: 1rem;
     -o-border-radius: 1rem;
 }
-#microbladeCarousel .carousel {
-    height: 51rem;
-    max-width: 100%;
-    box-shadow: .3rem .2rem .6rem #000000;
-    border-radius: 1rem;
-    -webkit-border-radius: 1rem;
-    -moz-border-radius: 1rem;
-    -ms-border-radius: 1rem;
-    -o-border-radius: 1rem;
-}
 #bridalCarousel img {
+    height: 51rem;
+    width: 100%;
+    min-width: 100%;
     border-radius: 1rem;
     -webkit-border-radius: 1rem;
     -moz-border-radius: 1rem;
@@ -446,7 +448,7 @@ a:hover {
 }
 #microbladeCarousel img {
     height: 51rem;
-    width: 100%;
+    max-width: 50rem;
     border-radius: 1rem;
     -webkit-border-radius: 1rem;
     -moz-border-radius: 1rem;
@@ -455,8 +457,8 @@ a:hover {
 }
 .carousel-inner > .carousel-item {
     border-radius:1rem;
-    height: 53rem;
-    width: 42rem;
+    height: 51rem;
+    width: 85%%;
     -webkit-border-radius:1rem;
     -moz-border-radius:1rem;
     -ms-border-radius:1rem;
@@ -465,7 +467,7 @@ a:hover {
 #microbladeCarousel .carousel-inner > .carousel-item {
     border-radius:1rem;
     height: 51rem;
-    width: 100%;
+    width: 50rem;
     -webkit-border-radius:1rem;
     -moz-border-radius:1rem;
     -ms-border-radius:1rem;
