@@ -221,7 +221,7 @@ body {
     position: relative;
     font-weight: 500;
 }
-.pageTitle {
+.pageTitle h1{
     margin-top: 1rem;
     text-align: center;
     font-family: 'Abril', sans-serif;
@@ -278,6 +278,10 @@ h2 {
 h3 {
     font-weight: 500;
 }
+.after {
+    font-weight: 500;
+    font-size: 1.6rem;
+}
 
 p {
     font-size: 1.5rem;
@@ -310,7 +314,7 @@ a:hover {
 }
 a:hover {
     color:rgba(241, 67, 67, 0.664);
-    font-shadow: .1rem .1rem .1rem #000;
+    text-shadow: .1rem .1rem .1rem #000;
 }
 .card h4{
     font-family: 'Abril';
@@ -348,6 +352,7 @@ a:hover {
 }
 
 .card {
+    margin: 2rem;
     height: 40rem;
     width: 23rem;
     min-width: 23rem;
@@ -362,8 +367,6 @@ a:hover {
     height: 36rem;
 }
 .noImageCard {
-    position: relative;
-    top: 10rem;
     height: 25rem;
 }
 .navCard {
@@ -372,7 +375,7 @@ a:hover {
 /*================================  Images =================================    */
 .lash-main {
     align-items: center;
-    margin-top: 5rem;
+    margin-top: 2rem;
     height: 43rem;
     width: 33rem;
     border-radius: 2rem;
@@ -420,6 +423,7 @@ contactImage {
 
 }
 #mainPage {
+    min-width: 30rem;
     border-radius: 2rem;
     box-shadow:.3rem .2rem .6rem #000000;
     -webkit-border-radius: 2rem;
@@ -562,6 +566,7 @@ contactImage {
 }
 i {
     background: radial-gradient(ellipse farthest-corner at right bottom, #FEDB37 0%, #FDB931 8%, #9f7928 30%, #a5863f 40%, transparent 80%),                radial-gradient(ellipse farthest-corner at left top, #FFFFFF 0%, #FFFFAC 8%, #D1B464 25%, #927739 62.5%, #8a7033 100%);
+    background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     color: #fff;
@@ -582,5 +587,5 @@ i:hover {
     .bigButton {
         display:block;
         margin:0.2em auto;
-   };
+   }
 }
