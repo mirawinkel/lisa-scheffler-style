@@ -156,6 +156,10 @@ body {
     -ms-transition: all 0.2;
     -o-transition: all 0.2;
 }
+#brandtext b {
+    position: relative;
+    left: -.7rem;
+}
 #brandtext a:hover {
     text-shadow: .3rem .3rem .4rem #FFFFAC;
 }
