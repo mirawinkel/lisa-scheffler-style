@@ -220,13 +220,18 @@ body {
     color: rgb(255, 43, 13);
     position: relative;
     font-weight: 500;
-    transition: all 0.2;
-    -webkit-transition: all 0.2;
-    -moz-transition: all 0.2;
-    -ms-transition: all 0.2;
-    -o-transition: all 0.2;
 }
-
+.pageTitle {
+    margin-top: 1rem;
+    text-align: center;
+    font-family: 'Abril', sans-serif;
+    font-size: 4.5rem;
+    text-shadow: .14rem .12rem .25rem black;
+    letter-spacing: .18rem;
+    color: rgb(255, 43, 13);
+    position: relative;
+    font-weight: 500;
+}
 
 
 .micro h1 {
@@ -425,7 +430,9 @@ contactImage {
 .boxShadow {
     box-shadow:.3rem .2rem .6rem #000000;
 }
-
+#mainImg {
+    min-width:30rem;
+}
 /*================================  Button =================================    */
 
 .bigButton {
