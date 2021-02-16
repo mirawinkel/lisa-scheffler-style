@@ -524,7 +524,7 @@ a:hover {
 /*================================  Button =================================    */
 .navbar-toggler {
     background-color: #000000;
-    box-shadow: 0 0 .3rem rgb(224, 191, 197);
+    box-shadow: 0 0 .35rem rgb(224, 191, 197);
 }
 .navbar-toggler:focus {
     outline: none;
