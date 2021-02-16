@@ -382,6 +382,9 @@ a:hover {
     height: 35rem;
 }
 /*================================  Images =================================    */
+.navbar img {
+    margin-bottom: 1rem;
+}
 .lash-main {
     align-items: center;
     margin-top: 2rem;
