@@ -227,6 +227,7 @@ body {
     font-family: 'Abril', sans-serif;
     font-size: 6rem;
     text-shadow: .14rem .12rem .25rem rgb(65, 65, 65);
+    line-height: 5.5rem;
     letter-spacing: .3rem;
     color: rgb(0, 0, 0);
     position: relative;
