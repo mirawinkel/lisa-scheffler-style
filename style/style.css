@@ -133,7 +133,12 @@ body {
 }
 
 /*==================  Nav Bar  ==================    */
-
+.navbar {
+    background-color: black;
+}
+.dropdown-menu {
+    background-color: black;
+}
 .navLogo {
     height: 3.5rem;
     width: 2.2rem;
@@ -142,9 +147,10 @@ body {
 }
 
 #brandtext{
-    text-shadow: .15rem .1rem .12rem black;
     letter-spacing: .18rem;
-    color: rgb(255, 43, 13);
+    background-color: #000;
+    color: rgb(224, 191, 197);
+    text-shadow: 0 0 .2rem rgb(224, 191, 197);
     font-family: 'Abril';
     font-size: 3.3rem;
     position: relative;
@@ -170,7 +176,7 @@ body {
 
 #fade a {
     color: rgb(224, 191, 197);
-    text-shadow: .05rem .05rem .07rem rgb(0, 0, 0);
+    text-shadow: 0 0 .15rem rgb(224, 191, 197);
     position: relative;
     font-weight: 400;
     transition: all 0.22s ease-in-out;
@@ -182,7 +188,7 @@ body {
 
 #fade a:hover {
     color:rgb(211, 102, 113);
-    text-shadow: .15rem .15rem .3rem black;
+    text-shadow: 0 0 .15rem rgb(211, 102, 113);
 }
 
 .dropdown {
@@ -220,22 +226,22 @@ body {
     text-align: center;
     font-family: 'Abril', sans-serif;
     font-size: 6rem;
-    text-shadow: .22rem .18rem .3rem black;
-    letter-spacing: .18rem;
-    color: rgb(255, 43, 13);
+    text-shadow: .14rem .12rem .25rem rgb(65, 65, 65);
+    letter-spacing: .3rem;
+    color: rgb(0, 0, 0);
     position: relative;
-    font-weight: 500;
+    font-weight: 400;
 }
 .pageTitle h1{
     margin-top: 1rem;
     text-align: center;
     font-family: 'Abril', sans-serif;
     font-size: 4.5rem;
-    text-shadow: .14rem .12rem .25rem black;
+    text-shadow: .14rem .12rem .25rem rgb(65, 65, 65);
     letter-spacing: .18rem;
-    color: rgb(255, 43, 13);
+    color: rgb(0, 0, 0);
     position: relative;
-    font-weight: 500;
+    font-weight: 400;
 }
 #microTitle {
     position: relative;
@@ -516,7 +522,13 @@ a:hover {
     min-width:33rem;
 }
 /*================================  Button =================================    */
-
+.navbar-toggler {
+    background-color: #000000;
+    box-shadow: 0 0 .3rem rgb(224, 191, 197);
+}
+.navbar-toggler:focus {
+    outline: none;
+}
 .bigButton {
     display: inline-block;
     padding: .7em 1.5em;
@@ -637,8 +649,9 @@ a:hover {
     position: relative;
     top: -1rem;
 }
-.carousel-control-next {
-
+#hairBtnMen{
+    position: relative;
+    top: .2rem;
 }
 #mail {
     position: relative;
