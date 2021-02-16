@@ -633,6 +633,7 @@ a:hover {
     margin: 1.5rem;
 }
 .microbtn {
+    margin: 1rem;
     position: relative;
     top: -.8rem;
 }
