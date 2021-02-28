@@ -258,7 +258,9 @@ span {
     font-family: 'Poppins Bold';
     font-weight: 400;
 }
-
+h1 {
+    font-weight: 200;
+}
 .micro h1 {
     font-weight: 200;
 }
