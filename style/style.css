@@ -366,7 +366,7 @@ a:hover {
 }
 
 .card {
-    margin: 2rem;
+    margin: 1.5rem 3rem;
     height: 40rem;
     width: 23rem;
     min-width: 23rem;
@@ -382,6 +382,7 @@ a:hover {
 }
 .noImageCard {
     height: 25rem;
+    margin: 1.5rem 3rem;
 }
 .navCard {
     height: 35rem;
@@ -669,7 +670,7 @@ a:hover {
 /* ================= Social Media =================*/
 
 .social {
-    list-style-type: none;
+    text-decoration: none;
 }
 .social i {
     background: radial-gradient(ellipse farthest-corner at right bottom, #FEDB37 0%, #FDB931 8%, #9f7928 30%, #a5863f 40%, transparent 80%),                radial-gradient(ellipse farthest-corner at left top, #FFFFFF 0%, #FFFFAC 8%, #D1B464 25%, #be9e52 62.5%, #aa8b44 100%);
@@ -678,7 +679,8 @@ a:hover {
     -webkit-text-fill-color: transparent;
     color: #fff;
     position: relative;
-    margin: 0;
+    left: 1.6rem;
+    margin: 3rem 1.5rem;
     font-weight: 400;
     transition: all 0.3s ease-in-out;
     -webkit-transition: all 0.3s ease-in-out;
@@ -686,7 +688,7 @@ a:hover {
     -ms-transition: all 0.3s ease-in-out;
     -o-transition: all 0.3s ease-in-out;
 }
-
+i:
 i:hover {
     text-shadow: 0 0 .2rem #f5f59a;
 }
