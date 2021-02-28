@@ -112,6 +112,14 @@
     font-family: 'Abril';
     src: url('./fonts/AbrilFatface-Regular.ttf') format('truetype');
 }
+@font-face {
+    font-family: 'Poppins Bold';
+    src: url('./fonts/Poppins-Bold.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'Poppins';
+    src: url('./fonts/Poppins-ExtraLight.ttf') format('truetype');
+}
 
 /*  ==================== Page Controls =======================  */
 * {
@@ -123,12 +131,12 @@
 }
 
 html {
-    font-family: 'Raleway', 'Roboto', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-family: 'Poppins', 'Roboto', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size: 10px;
 }
 
 body {
-    font-family: 'Raleway', 'Roboto', 'Lucida Sans Unicode';
+    font-family: 'Poppins', 'Roboto', 'Lucida Sans Unicode';
     background-color: rgb(245, 228, 231);
 }
 
@@ -220,7 +228,7 @@ body {
     margin-top: -1.1rem;
 }
 
-/*================================  Text =================================    */
+/*==============================  Text ===============================    */
 
 .brandTitle {
     text-align: center;
@@ -232,11 +240,13 @@ body {
     color: rgb(0, 0, 0);
     position: relative;
     font-weight: 400;
+    margin-bottom: 2rem;
 }
 .pageTitle h1{
-    margin-top: 1rem;
+    margin-top: 3rem;
+    margin-bottom: 2rem;
     text-align: center;
-    font-family: 'Abril', sans-serif;
+    font-family: 'Poppins Bold', sans-serif;
     font-size: 4.5rem;
     text-shadow: .14rem .12rem .25rem rgb(65, 65, 65);
     letter-spacing: .18rem;
@@ -244,29 +254,31 @@ body {
     position: relative;
     font-weight: 400;
 }
-#microTitle {
-    position: relative;
-    top: -2.8rem;
+span {
+    font-family: 'Poppins Bold';
+    font-weight: 400;
+}
+
+.micro h1 {
+    font-weight: 200;
 }
 .micro h2 {
     font-size: 2.4rem;
-    font-weight: 400;
 
 }
 .micro h3 {
     font-size: 2.2rem;
-    font-weight: 300;
+}
+.micro h4 {
+    font-size: 1.7rem;
 }
 .micro p {
-    font-weight: 300;
-    font-size: 1.4rem;
-
+    font-size: 1.7rem;
 }
 .microCard h4 {
     margin-top: .4rem;
 }
 .microCard p {
-    font-weight: 500;
     margin-top: 1rem;
     margin-bottom: -2rem;
 }
@@ -281,24 +293,20 @@ h1 {
     margin-top: 1.1rem;
     margin-bottom: 1.1rem;
 }
-
-h2 {
-    font-weight: 600;
+#moreInfo1 {
+    margin-bottom: .8rem
 }
-
-h3 {
-    font-weight: 500;
+#moreInfo2 {
+    margin-top: 1rem;
 }
 .after {
-    font-weight: 500;
     font-size: 1.6rem;
 }
-
+b {
+    font-weight:200;
+}
 p {
     font-size: 1.5rem;
-}
-.quote {
-    font-style: italic;
 }
 a {
     color: rgb(211, 102, 113);
@@ -326,14 +334,8 @@ a:hover {
     -ms-transition: all 0.1s ease-in-out;
     -o-transition: all 0.1s ease-in-out;
 }
-.card h4{
-    font-family: 'Abril';
-    font-weight:300;
-    letter-spacing: .12rem;
-}
-.info b {
-    font-weight: 600;
-}
+
+
 #lashText {
     margin-top: -1rem;
 }
@@ -431,8 +433,8 @@ a:hover {
     -o-border-radius: 2rem;
 }
 #bridal .carousel {
-    height: 100%;
-    max-width: 40rem;
+    height: 45rem;
+    max-width: 37.7rem;
     box-shadow: .3rem .2rem .6rem #000000;
     border-radius: 1rem;
     -webkit-border-radius: 1rem;
@@ -453,8 +455,8 @@ a:hover {
     -o-border-radius: 1rem;
 }
 #bridalCarousel img {
-    height: 50rem;
-    width: 100%;
+    height: 45rem;
+    width: 37.7rem;
     min-width: 100%;
     border-radius: 1rem;
     -webkit-border-radius: 1rem;
@@ -643,12 +645,12 @@ a:hover {
 }
 #hairBtnLeft{
     position: relative;
-    bottom: -2rem;
+    bottom: -1.8rem;
 
 }
 #hairBtnMdl{
     position: relative;
-    top: -1.2rem;
+    top: -1.5rem;
 }
 #hairBtnRight{
     position: relative;
@@ -656,7 +658,7 @@ a:hover {
 }
 #hairBtnMen{
     position: relative;
-    top: .2rem;
+    top: 1.5rem;
 }
 #mail {
     position: relative;
@@ -687,8 +689,9 @@ i:hover {
     text-shadow: 0 0 .2rem #f5f59a;
 }
 @media all and (max-width:30em){
+
     .bigButton {
         display:block;
         margin:0.2em auto;
-   }
+    }
 }
