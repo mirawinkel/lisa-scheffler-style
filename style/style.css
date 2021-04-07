@@ -1,8 +1,4 @@
 @font-face {
-    font-family: 'Abril';
-    src: url('./fonts/AbrilFatface-Regular.ttf') format('truetype');
-}
-@font-face {
     font-family: 'Playfair';
     src: url('./fonts/PlayfairDisplay-VariableFont_wght.ttf') format("truetype-variations");
     font-weight: 1 999;
@@ -13,12 +9,34 @@ src: url('./fonts/PlayfairDisplay-Italic-VariableFont_wght.ttf') format("truetyp
 font-weight: 1 999;
 }
 @font-face {
-    font-family: 'Poppins Bold';
-    src: url('./fonts/Poppins-Bold.ttf') format('truetype');
+    font-family: 'Poppins';
+    src: url('./fonts/Poppins-ExtraLight.ttf') format('truetype');
+    font-weight: 100;
 }
 @font-face {
     font-family: 'Poppins';
-    src: url('./fonts/Poppins-ExtraLight.ttf') format('truetype');
+    src: url('./fonts/Poppins-Light.ttf') format('truetype');
+    font-weight: 200;
+}
+@font-face {
+    font-family: 'Poppins';
+    src: url('./fonts/Poppins-Medium.ttf') format('truetype');
+    font-weight: 300;
+}
+@font-face {
+    font-family: 'Poppins';
+    src: url('./fonts/Poppins-Regular.ttf') format('truetype');
+    font-weight: 400;
+}
+@font-face {
+    font-family: 'Poppins';
+    src: url('./fonts/Poppins-SemiBold.ttf') format('truetype');
+    font-weight: 500;
+}
+@font-face {
+    font-family: 'Poppins';
+    src: url('./fonts/Poppins-Bold.ttf') format('truetype');
+    font-weight: 600;
 }
 
 /*  ==================== Page Controls =======================  */
@@ -37,6 +55,7 @@ html {
 
 body {
     font-family: 'Poppins', 'Roboto', 'Lucida Sans Unicode';
+    font-weight: 100;
     background-color: rgb(250, 250, 250);
 }
 
@@ -82,9 +101,9 @@ body {
 }
 
 #fade a {
-    color: rgb(255, 255, 255);
+    color: #fff;
     position: relative;
-    font-weight: 400;
+    font-weight: 200;
     transition: all 0.22s ease-in-out;
     -webkit-transition: all 0.22s ease-in-out;
     -moz-transition: all 0.22s ease-in-out;
@@ -93,10 +112,12 @@ body {
 }
 
 #fade a:hover {
-    text-shadow: 0 0 .2rem #f5f59a;
+    text-shadow: 0 0 .1rem #f5f59a;
     color: #f5f59a;
 }
-
+#fade a:active {
+    text-shadow: 0 0 .3rem #f5f59a;
+}
 .dropdown {
     margin-bottom: -.5rem;
 }
@@ -132,7 +153,7 @@ body {
     text-align: center;
     font-family: 'Playfair Italic', sans-serif;
     font-size: 6rem;
-    text-shadow: .14rem .12rem .25rem rgb(65, 65, 65);
+    text-shadow: .1rem .1rem .2rem rgb(65, 65, 65);
     line-height: 5.5rem;
     letter-spacing: .3rem;
     color: rgb(0, 0, 0);
@@ -144,20 +165,34 @@ body {
     margin-top: 3rem;
     margin-bottom: 2rem;
     text-align: center;
-    font-family: 'Poppins Bold', sans-serif;
+    font-family: 'Poppins', sans-serif;
     font-size: 4.5rem;
-    text-shadow: .14rem .12rem .25rem rgb(65, 65, 65);
+    text-shadow: .1rem .1rem .2rem rgb(65, 65, 65);
     letter-spacing: .18rem;
     color: rgb(0, 0, 0);
     position: relative;
-    font-weight: 400;
+    font-weight: 500;
 }
 span {
-    font-family: 'Poppins Bold';
-    font-weight: 400;
+    font-family: 'Poppins';
+    font-weight: 500;
 }
 h1 {
-    font-weight: 200;
+    font-weight: 100;
+    margin-top: 1.1rem;
+    margin-bottom: 1.1rem;
+}
+h2 {
+    font-weight: 100;
+}
+h3 {
+    font-weight: 100;
+}
+h4 {
+    font-weight: 100;
+}
+h5 {
+    font-weight: 100;
 }
 .micro h1 {
     font-weight: 200;
@@ -188,11 +223,6 @@ h1 {
     margin-bottom: 2rem;
 }
 
-h1 {
-    font-weight: 700;
-    margin-top: 1.1rem;
-    margin-bottom: 1.1rem;
-}
 #moreInfo1 {
     margin-bottom: .8rem
 }
@@ -208,9 +238,12 @@ b {
 p {
     font-size: 1.5rem;
 }
-a {
-    color: rgb(211, 102, 113);
-    text-shadow: .05rem .05rem .05rem rgb;
+p a {
+    background: radial-gradient(ellipse farthest-corner at right bottom, rgb(254, 219, 55) 0%, rgb(253, 185, 49) 8%, rgb(159, 121, 40) 30%, rgb(165, 134, 63) 40%, transparent 80%),                radial-gradient(ellipse farthest-corner at left top, rgb(255, 255, 255) 0%, rgb(255, 255, 172) 8%, rgb(209, 180, 100) 25%, rgb(190, 158, 82) 62.5%, rgb(170, 139, 68) 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: #fff;
     text-decoration: none;
     transition: all 0.1s ease-in-out;
     -webkit-transition: all 0.1s ease-in-out;
@@ -219,8 +252,7 @@ a {
     -o-transition: all 0.1s ease-in-out;
 }
 a:hover {
-    color:rgba(248, 7, 7, 0.808);
-    text-shadow: .04rem .04rem .04rem rgba(0, 0, 0, 0.5);
+    text-shadow: 0 0 .2rem #f5f59a;
 }
 .text {
     text-decoration: none;
@@ -274,6 +306,9 @@ a:hover {
     -moz-border-radius: 1.5rem;
     -ms-border-radius: 1.5rem;
     -o-border-radius: 1.5rem;
+}
+.microMain {
+    height: 38.85rem;
 }
 .microCard {
     height: 36rem;
@@ -459,23 +494,21 @@ a:hover {
     -o-border-radius:1.5em;
 }
 .bigButton:hover{
-    padding: .69em 1.42em;
-    font-weight:700;
-    box-shadow: .1rem .1rem .3rem rgb(148, 118, 74);
+
+    text-shadow: .1rem .1rem .18rem #f5f59a;
+    box-shadow: .1rem .1rem .3rem #f5f59a;
     background-image: url(./trianglify.png);
     color: #000000;
     
-    border-color: #5d4a1f;
+    border-color: #000000;
 
 }
 .bigButton:active{
-    font-weight:700;
-    text-shadow: .1rem .1rem .18rem rgb(0, 0, 0);
     box-shadow: .1rem .1rem .3rem rgb(148, 118, 74);
     color: #000000;
     background-image: none;
     background-color: #fff;
-    border-color: #5d4a1f;
+    border-color: #000000;
 
 }
 .bigButton:focus {
@@ -492,9 +525,9 @@ a:hover {
     background-image: radial-gradient(ellipse farthest-corner at right bottom, rgb(254, 218, 57) 0%, rgb(253, 185, 49) 8%, rgb(204, 160, 64) 30%, rgb(177, 143, 64) 40%, transparent 80%),
     radial-gradient(ellipse farthest-corner at left top, rgb(255, 255, 255) 0%, rgb(255, 255, 172) 8%, rgb(230, 204, 134) 25%, rgb(167, 136, 64) 62.5%, rgb(155, 128, 65) 100%);
     text-decoration: none;
-    text-shadow: .08rem .08rem .05rem black;
+    text-shadow: .08rem .08rem .05rem #313131;
     font-size: 1.5rem;
-    font-weight: 600;
+    font-weight: 300;
     color: #ffffff;
     text-align: center;
     transition: all 0.25s ease-in-out;
@@ -508,22 +541,21 @@ a:hover {
     -o-border-radius: 1em;
 }
 .lilButton:hover{
-    font-weight:700;
+    text-shadow: .1rem .1rem .18rem #f5f59a;
     box-shadow: .1rem .1rem .3rem rgb(148, 118, 74);
-    color: #000000;
+    color: #313131;
     background-image: url(./trianglify.png);
-    border-color: #5d4a1f;
+    border-color: #000000;
 
 
 }
 .lilButton:active{
-    font-weight:700;
-    text-shadow: .1rem .1rem .12rem rgb(0, 0, 0);
     box-shadow: .1rem .1rem .3rem rgb(148, 118, 74);
-    color: #000000;
+    text-shadow: .1rem .1rem .18rem #f5f59a;
+    color: #313131;
     background-image: none;
     background-color: #fff;
-    border-color: #5d4a1f;
+    border-color: #000000;
 }
 .lilButton:focus {
     outline: none;
@@ -544,6 +576,11 @@ a:hover {
     margin: 1rem;
     position: relative;
     top: -.8rem;
+}
+.microbtnMainMiddle {
+    margin: 1rem;
+    position: relative;
+    top: -2.7rem;
 }
 #hairBtnLeft{
     position: relative;
