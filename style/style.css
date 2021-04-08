@@ -664,9 +664,3 @@ i:hover {
         font-size: 8px;
     }
 }
-@media only screen  
-  and (max-width: 411px)  { 
-    html {
-        font-size: 6px;
-    }
-}
